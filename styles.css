@@ -181,6 +181,7 @@ a:focus-visible {
   height: auto;
   border-radius: 16px;
   border: 1px solid #e3d9cc;
+  margin-bottom: 40px;
 }
 
 .footer {
