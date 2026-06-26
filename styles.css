@@ -131,6 +131,33 @@ a:focus-visible {
   margin: 1rem 0;
 }
 
+.quick-nav {
+  display: grid;
+  gap: 0.75rem;
+  margin: 1rem 0 1.25rem;
+}
+
+.quick-nav-button {
+  display: block;
+  padding: 0.95rem 1.1rem;
+  border-radius: 999px;
+  background: #f4efe8;
+  border: 1px solid #d9cbbf;
+  color: #1d1d1f;
+  font-weight: 600;
+  text-align: left;
+  transition: transform 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 8px 18px rgba(35, 30, 24, 0.06);
+}
+
+.quick-nav-button:hover,
+.quick-nav-button:focus-visible {
+  background: #e8dccf;
+  transform: translateY(-1px);
+  box-shadow: 0 12px 24px rgba(35, 30, 24, 0.1);
+  text-decoration: none;
+}
+
 .button {
   display: inline-flex;
   align-items: center;
