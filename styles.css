@@ -139,14 +139,17 @@ a:focus-visible {
   border-radius: 999px;
   background: #2f6a92;
   color: white;
-  font-weight: 600;
-  transition: transform 0.2s ease, background 0.2s ease;
+  font-weight: 700;
+  box-shadow: 0 14px 28px rgba(47, 106, 146, 0.2);
+  text-decoration: none;
+  transition: transform 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
 }
 
 .button:hover,
 .button:focus-visible {
-  background: #254f74;
+  background: #1f4a6d;
   transform: translateY(-1px);
+  box-shadow: 0 18px 32px rgba(47, 106, 146, 0.28);
 }
 
 .map-placeholder {
